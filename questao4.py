@@ -1,5 +1,13 @@
-ladoA = int(input("digite o a medida do lado A: "))
-ladoB = int(input("digite o a medida do lado B: "))
-area= ladoB*ladoA
-perimetro= (2*ladoA)+(2*ladoB)
-print("a area do retangulo equivale a "+str(area)+" e o perimetro equivale a "+str(perimetro)+ ".")
+num1=int(input("Insira o primeiro numero: "))
+num2=int(input("Insira o segundo numero: "))
+num3=int(input("Insira o tereciro numero: "))
+if(num1>num2):
+    if(num1>num3):
+        print("O numero " + str(num1) + " é o maior numero.")
+    else:
+        print("O numero " + str(num3) + " é o maior numero.")
+elif(num1<num2):
+     if(num2>num3):
+        print("O numero " + str(num2) + " é o maior numero.")
+     else:
+        print ("O numero " + str(num3) + " é o maior numero.")

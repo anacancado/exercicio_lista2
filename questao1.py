@@ -1,3 +1,7 @@
-valorReal=float(input("Digite o valor em reais que voce deseja converter para dolares: "))
-valorDolar= valorReal/3.12
-print ("o valor convertido em dolar é igual a "+ str(valorDolar))
+salario=float(input("Digite o valor do salario: "))
+financiamento=float(input("Digite o valor do financiamento: "))
+if (financiamento<=5*salario):
+    print("financiamento concedido")
+else:
+    print("financiamento negado")
+print("Obrigado por nos consultar")

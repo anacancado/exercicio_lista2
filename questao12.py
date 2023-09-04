@@ -1,6 +1,12 @@
-carrosVendidos=float(input("Digite a quantidade de carros vendidos: "))
-valorTotalVendas=float(input("Digite o valor total de vendas: "))
-salarioFixo= float(input("Digite o salario fixo: "))
-comissao=float(input("Digite o valor da comissão: "))
-salarioFinal= salarioFixo + comissao*carrosVendidos + (5*valorTotalVendas)/100
-print("O salario final será: " +str(salarioFinal))
+sexo=input("Voce se identifica com o sexo feminino ou masculino? (Digite F ou M) ")
+idade= int(input("Insira a sua idade: "))
+if sexo== "M":
+    if idade>=21:
+        print("É maior de idade!")
+    elif idade<21:
+        print("É menor de idade!")
+elif sexo=="F":
+    if idade>=18:
+        print("É maior de idade!")
+    elif idade<18:
+        print("É menor de idade!")
